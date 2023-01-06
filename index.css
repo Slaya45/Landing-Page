@@ -6,30 +6,52 @@ div.main1 {
 
 }
 div.logo {
-
+    border: 2px;
+    border-color: black;
+    border-style: dotted;
 
 }
 div.toplinkone {
 
+    border: 2px;
+    border-color: black;
+    border-style: dotted;
 
 
 
-background-color: black;
 }
 div.toplink2 {
+    border: 2px;
+    border-color: black;
+    border-style: dotted;
 
-
+}
 div.toplinkthree{
+    border: 2px;
+    border-color: black;
+    border-style: dotted;
 
-
+}
 div.centermainone{
+    border: 2px;
+    border-color: black;
+    border-style: dotted;
 
-
+}
 div.centermaintwo{
-
+    border: 2px;
+    border-color: black;
+    border-style: dotted;
+}
 
 div.centermainthree {
-
+    border: 2px;
+    border-color: black;
+    border-style: dotted;
+}
 
 div.bottommain{
-
+    border: 2px;
+    border-color: black;
+    border-style: dotted;
+}
