@@ -1,50 +1,86 @@
-div.main1 {
+div.header {
     border: 2px;
     border-color: black;
     border-style: dotted;
+background-color: rgb(73, 73, 84);
+color: aliceblue;
+height: 70px;
 
 
 }
-div.logo {
+
+
+div.underheader {
+    background-color: rgb(73, 73, 84);
+    color: aliceblue;
     border: 2px;
     border-color: black;
     border-style: dotted;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+
+
 
 }
-div.toplinkone {
+a:link {color: white;}
 
+a:visited {color: antiquewhite;}
+
+a:hover {color: rgb(255, 189, 189);}
+
+a:active {color: brown;}
+
+div.toplinks {
+    color: aliceblue;
     border: 2px;
     border-color: black;
     border-style: dotted;
-
+    position: relative;
+    right: -74%;
+    top: 13%;
 
 
 }
-div.toplink2 {
+
+img {
+    size: 40%;
+}
+
+div.imgbody {
+
+position: relative;
+    color: aliceblue;
+    border: 2px;
+    border-color: black;
+    border-style: dotted;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 10px;
+
+}
+h2 {
     border: 2px;
     border-color: black;
     border-style: dotted;
 
-}
-div.toplinkthree{
-    border: 2px;
-    border-color: black;
-    border-style: dotted;
 
-}
-div.centermainone{
-    border: 2px;
-    border-color: black;
-    border-style: dotted;
 
 }
 div.centermaintwo{
     border: 2px;
     border-color: black;
     border-style: dotted;
+    background-color: rgb(216, 224, 232);
 }
 
-div.centermainthree {
+div.quote {
+    border: 2px;
+    border-color: black;
+    border-style: dotted;
+}
+div.author {
     border: 2px;
     border-color: black;
     border-style: dotted;
@@ -55,3 +91,14 @@ div.bottommain{
     border-color: black;
     border-style: dotted;
 }
+div.bottombox {
+    border: 2px;
+    border-color: black;
+    border-style: dotted;
+}
+button {
+    border: 2px;
+    border-color: black;
+    border-style: dotted;
+}
+
