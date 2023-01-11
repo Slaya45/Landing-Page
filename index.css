@@ -5,6 +5,28 @@ div.header {
 background-color: rgb(73, 73, 84);
 color: aliceblue;
 height: 70px;
+}
+
+.logoo {
+
+height: 60px;
+max-height: 100%;
+max-width: 5%;
+    
+
+
+
+}
+
+
+div.toplinks {
+    color: aliceblue;
+    border: 2px;
+    border-color: black;
+    border-style: dotted;
+    position: relative;
+    right: -74%;
+    top: -55%;
 
 
 }
@@ -31,35 +53,39 @@ a:hover {color: rgb(255, 189, 189);}
 
 a:active {color: brown;}
 
-div.toplinks {
-    color: aliceblue;
-    border: 2px;
-    border-color: black;
-    border-style: dotted;
-    position: relative;
-    right: -74%;
-    top: 13%;
 
 
-}
 
-img {
-    size: 40%;
-}
-
-div.imgbody {
-
-position: relative;
-    color: aliceblue;
-    border: 2px;
-    border-color: black;
-    border-style: dotted;
+.imgbody{
+  
+border-color: black;
+border-style: dashed;
+margin: auto;
+width: 100%;
+height: 300px;
 display: flex;
-flex-wrap: wrap;
-justify-content: center;
-gap: 10px;
+
 
 }
+
+img{
+    width: 45%;
+   min height: 45px;
+   height: 100%;
+ 
+}
+
+.wolves {
+    text-align: center;
+    height: 145px;
+  width: auto;
+  max-width: auto;
+display: flex;
+
+color: black;
+}
+
+
 h2 {
     border: 2px;
     border-color: black;
