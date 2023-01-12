@@ -1,32 +1,32 @@
+
+* {
+  overflow: hidden;
+   
+}
 div.header {
-    border: 2px;
-    border-color: black;
-    border-style: dotted;
+    
 background-color: rgb(73, 73, 84);
 color: aliceblue;
-height: 70px;
+height: 150%;
+position: relative;
+
+
 }
 
-.logoo {
+#logoo {
 
-height: 60px;
-max-height: 100%;
-max-width: 5%;
+
+max-height: 10%;
+max-width: 7%;
     
-
-
-
 }
 
 
-div.toplinks {
+#links {
     color: aliceblue;
-    border: 2px;
-    border-color: black;
-    border-style: dotted;
     position: relative;
     right: -74%;
-    top: -55%;
+    
 
 
 }
@@ -41,68 +41,70 @@ div.underheader {
   
     padding: 10px;
     width: 100%;
-height: 300px;
-display: flex;
-flex-wrap: nowrap;
-flex-direction: row;
-text-align: center;
-justify-content: space-around;
+height: 400%;
+
+
+
+
 
 }
-div.words{
-    
-   
+div.wordimg{
+    display: flex;
+   margin: 40px;
+   margin-left: 43%;
 }
 div.mainimg {
     display: flex;
-   
+   margin: 10px;
+   width: 100%;
+   height: auto;
+  
+
 }
 img {
     width: 100%;
-    max-width: 60%;
-    max-height: 50%;
+    max-width: 70%;
+    max-height: auto%;
 }
-a:link {color: white;}
+a:link {color: rgb(255, 255, 255);}
 
-a:visited {color: antiquewhite;}
+a:visited {color: rgb(209, 136, 255);}
 
-a:hover {color: rgb(255, 189, 189);}
+a:hover {color: rgb(123, 164, 242);}
 
-a:active {color: brown;}
-
-
+a:active {color: rgb(255, 216, 216);}
 
 
-.imgbody{
+
+
+#imgbody{
   
 border-color: black;
-border-style: dashed;
-margin: auto;
 width: 100%;
 height: 300px;
-display: flex;
-flex-wrap: wrap;
 flex-direction: column;
 text-align: center;
-
-
+margin: 3px;
+padding: 5px;
+border: 1px;
+}
+h2 {
+    text-align: center;
 }
 
 img{
-    width: 70%;
-   min height: 45px;
-   height: 100%;
+    width: 100%;
+   height: auto;
  
 }
 
-.wolves {
+#wolves {
     text-align: center;
-    height: 145px;
-  width: auto;
-  max-width: auto;
+  max-width: 100%;
 display: flex;
-
 color: black;
+flex-direction: row;
+font-size: 16px;
 }
 
 
