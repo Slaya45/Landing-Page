@@ -3,34 +3,48 @@
   overflow: auto;
    
 }
-div.header {
+div.top {
     
+
+    border: 2px;
+border-style: solid;
+
+
 background-color: rgb(73, 73, 84);
 color: aliceblue;
 height: 150%;
 position: relative;
+width: auto;
 
 
 }
-
 img#logoo {
+    border: 2px;
+    border-style: solid;
 
-
+    position: relative;
 max-height: 10%;
 max-width: 6%;
+left: 10px;
+top: 10px;
 
     
 }
 
 
 #links {
-    color: aliceblue;
+border: 2px;
+border-style: solid;
+
+
+justify-content: space-between;
+top: 10%;
     position: relative;
-    right: -72%;
-    top: -50px;
-display: flex;
-    justify-content: space-evenly;
-    width: 450px;
+    left: 70%;
+    display: flex;
+    width: 25%;
+
+    padding: 1%;
 
 }
 
@@ -39,7 +53,7 @@ div.underheader {
     background-color: rgb(73, 73, 84);
     color: aliceblue;
     padding: 10px;
-    width: 100%;
+    width: auto;
 height: 400%;
 
 }
@@ -79,6 +93,7 @@ flex-direction: column;
 text-align: center;
 margin: 3px;
 padding: 5px;
+width: auto;
 }
 h2 {
     text-align: center;
@@ -106,31 +121,20 @@ h2 {
 
 }
 div.centermaintwo{
-    border: 2px;
-    border-color: black;
-    border-style: dotted;
     background-color: rgb(216, 224, 232);
-
-padding: 2%;
+    padding: 2%;
     height: 60%;
     width: auto;
 
 }
 
 div.quote {
-    border: 2px;
-    border-color: black;
-    border-style: dotted;
-margin-left: 30%;
-margin-right: 30%;
+    margin-left: 30%;
+    margin-right: 30%;
     text-align: center;
     font-size: 18px;
 }
 div.author {
-    border: 2px;
-    border-color: black;
-    border-style: dotted;
-
     position: relative;
     max-height: 100%;
     width: 27%;
