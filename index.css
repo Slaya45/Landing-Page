@@ -11,7 +11,7 @@ position: relative;
 display: flex;
 margin: auto;
     width: auto;
-    padding-right: 100px;
+    padding-right: 10px;
 align-items: center;
     justify-content: space-between;
 height: 190px;
@@ -19,9 +19,10 @@ height: 190px;
 
 }
 div.logo {
-    width: 17%;
-height: 90%;
+    width: 16%;
+height: ;
     padding-left: 10px;
+    margin-right: 50%;
 }
 img {
     max-width: 100%;
@@ -33,6 +34,7 @@ div.links {
 left: 20%;
 margin: 0%;
 bottom: 10px;
+margin: auto;
 }
 
 
@@ -129,23 +131,35 @@ div.author {
 }
 
 div.bottommain{
-    border: 2px;
-    border-color: black;
-    border-style: solid;
-    height: 200px;
+  
+    display: flex;
+    flex-wrap: wrap;
+   align-items: center;
+   
+    
+
 }
 div.bottombox {
-    border: 2px;
-    border-color: rgb(237, 9, 9);
-    border-style: solid;
+   
     text-align: center;
+    width: 32%;
+  
+   margin-top: 1%;
+   margin-bottom: 1%;
+   margin-left: 33%;
+  
+  
+   
+}
+div.button {
+
 }
 #buttonbottom {
     background-color: blue;
     color: aliceblue;
-    width: 12%;
-    border-radius: 20px;
-   
+    border-radius: 300px;
+
+
 
 }
 #buttontop {
